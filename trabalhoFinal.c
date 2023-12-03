@@ -74,7 +74,7 @@ int main()
     {
         for (int j = 0; j < 20; j++)
         {
-            // Coloca as matrizes com um valor inicial de 0, para caso não haja rota entre as cidades.
+            // Coloca as matrizes com um valor inicial de -1, para caso não haja rota entre as cidades.
             transito[i][j] = -1;
             criminalidade[i][j] = -1;
             distancia[i][j] = -1;
